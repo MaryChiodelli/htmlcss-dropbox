@@ -105,9 +105,45 @@ button {
     font-weight: 700;
 }
 
+/* SECTION */
+.section__header {
+    margin-bottom: 60px;
+}
+
+.section__header .title {
+    font-size: 36px;
+}
+
+.section__body .radio-buttons {
+    margin-bottom: 40px;
+}
+
+.section__body .radio-buttons span {
+    margin-right: 40px;
+}
+
+.section .card {
+    border: 1px solid black;
+}
+
+.section .card__header {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.section .card__header i {
+    margin-right: 5px;
+}
+
+.section .card__body {
+    padding: 30px;
+}
+
+
 
 
 /* DEBUG */
 .debug .hero + section * {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
