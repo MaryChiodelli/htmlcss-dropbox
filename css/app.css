@@ -17,17 +17,27 @@ ul, ol, menu {
 }
 
 a {
+    display: inline-block;
     text-decoration: none;
-    padding: 0 15px;
     color: currentColor;
 }
 
 button {
-    color: currentColor;
     background-color: transparent;
     border: none;
-    padding: 0 15px;
+}
+
+.button {
+    background-color: #0061FF;
+    color: white;
     font-size: 16px;
+    padding: 0 15px;
+    line-height: 35px;
+}
+
+.button-white {
+    background-color: transparent;
+    color: black;
 }
 
 /* LAYOUT */
@@ -71,7 +81,7 @@ button {
 .main-header {
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
     padding: 20px;
     color: black;
     background-color: white;
@@ -86,8 +96,17 @@ button {
     display: flex;
 }
 
+.main-header .nav__menu {
+    gap: 30px;
+}
+
 .main-header .utility {
     margin-left: auto;
+    align-items: center;
+}
+
+.main-header .utility a {
+    margin-left: 30px;
 }
 
 /* HERO */
@@ -139,6 +158,7 @@ button {
 .section .card__body {
     padding: 30px;
 }
+
 
 
 
