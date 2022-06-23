@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
 img {
     max-width: 100%;
 }
@@ -15,21 +19,25 @@ ul, ol, menu {
 a {
     text-decoration: none;
     padding: 0 15px;
+    color: currentColor;
 }
 
 button {
+    color: currentColor;
     background-color: transparent;
     border: none;
     padding: 0 15px;
+    font-size: 16px;
 }
 
 /* HEADER */
 .main-header {
-    padding: 20px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 15px;
+    padding: 20px;
+    color: black;
+    background-color: white;
 }
 
 .main-header .logo {
@@ -74,10 +82,3 @@ button {
 
 
 /* DEBUG */
-.debug header {
-    background-color: salmon;
-}
-
-.debug header * {
-    border: 1px solid red;
-}
