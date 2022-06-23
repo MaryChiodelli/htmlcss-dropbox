@@ -45,9 +45,31 @@ button {
     margin-left: auto;
 }
 
+/* HERO */
+.hero {
+    background-color: #B4D0E7;
+}
 
+.container-large {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.hero__body .col-30 {
+    width: 30%;
+}
 
+.flex {
+    display: flex;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-70 {
+    width: 70%;
+}
 
 
 
