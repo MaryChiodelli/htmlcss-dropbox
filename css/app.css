@@ -159,6 +159,47 @@ button {
     padding: 30px;
 }
 
+.button--w-100 {
+    width: 100%;
+    text-align: center;
+}
+
+.section .card__body hr {
+    width: 50px;
+    color: black;
+}
+
+.section .card__body .title {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.section .card__body .price {
+    margin-bottom: 15px;
+    font-weight: 700
+}
+
+.section .card__body .rinnovo {
+    margin-bottom: 45px;
+}
+
+.section .card__body li {
+    margin-bottom: 15px;
+}
+
+.section .card__body .button {
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+.section .card__body a:last-child {
+    margin-bottom: 45px;
+}
+
+.section .card__body h4 {
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
 
 
 
