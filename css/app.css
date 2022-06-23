@@ -14,12 +14,48 @@ ul, ol, menu {
 
 a {
     text-decoration: none;
+    padding: 0 15px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    padding: 0 15px;
+}
+
+/* HEADER */
+.main-header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-header .logo {
+    height: 30px;
+}
+
+.main-header .nav__menu,
+.main-header .utility {
+    display: flex;
+}
+
+.main-header .utility {
+    margin-left: auto;
 }
 
 
 
 
+
+
+
 /* DEBUG */
+.debug header {
+    background-color: salmon;
+}
+
 .debug header * {
     border: 1px solid red;
 }
