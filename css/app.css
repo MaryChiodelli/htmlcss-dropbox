@@ -30,6 +30,43 @@ button {
     font-size: 16px;
 }
 
+/* LAYOUT */
+.container-large {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+.col {
+    padding: 0 20px;
+}
+
+.col-4 {
+    width: calc(100% / 3);
+}
+
 /* HEADER */
 .main-header {
     justify-content: space-between;
@@ -55,30 +92,22 @@ button {
 
 /* HERO */
 .hero {
+    padding: 90px 0 20px 0;
     background-color: #B4D0E7;
 }
 
-.container-large {
-    max-width: 1200px;
-    margin: 0 auto;
+.hero__header  {
+    margin-bottom: 35px;
 }
 
-.hero__body .col-30 {
-    width: 30%;
-}
-
-.flex {
-    display: flex;
-}
-
-.col-30 {
-    width: 30%;
-}
-
-.col-70 {
-    width: 70%;
+.hero__header .title {
+    font-size: 76px;
+    font-weight: 700;
 }
 
 
 
 /* DEBUG */
+.debug .hero + section * {
+    border: 1px solid black;
+}
