@@ -71,11 +71,17 @@ button {
 
 .col {
     padding: 0 20px;
+    margin-bottom: 40px;
 }
 
 .col-4 {
     width: calc(100% / 3);
 }
+
+.col-12 {
+    width: 100%;
+}
+
 
 /* HEADER */
 .main-header {
@@ -200,8 +206,6 @@ button {
     margin-top: 45px;
     margin-bottom: 25px;
 }
-
-
 
 
 /* DEBUG */
