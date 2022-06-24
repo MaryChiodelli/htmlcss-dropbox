@@ -69,7 +69,7 @@ button {
 }
 
 .row-margin {
-    margin: 0 -20px;
+    margin: 0 -25px;
 }
 
 .col-60 {
@@ -81,12 +81,12 @@ button {
 }
 
 .col {
-    padding: 0 20px;
+    padding: 0 25px;
     margin-bottom: 40px;
 }
 
 .col-4 {
-    width: calc(100% / 3);
+    flex-basis: calc(100% / 3);
 }
 
 .col-12 {
@@ -244,6 +244,14 @@ button {
 .section {
     padding: 75px 0;
 }
+
+.section__title {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+/* OPERATIONS */
 
 
 
