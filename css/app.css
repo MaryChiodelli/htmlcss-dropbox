@@ -251,8 +251,16 @@ button {
     margin-bottom: 48px;
 }
 
-/* OPERATIONS */
+/* FEATURES */
+#features .col {
+    margin-bottom: 55px;
+}
 
+#features .feature__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
 
 
 /* DEBUG */
