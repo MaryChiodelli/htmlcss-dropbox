@@ -89,6 +89,10 @@ button {
     flex-basis: calc(100% / 3);
 }
 
+.col-6 {
+    flex-basis: calc(100% / 2);
+}
+
 .col-12 {
     width: 100%;
 }
@@ -277,10 +281,28 @@ button {
     margin-bottom: 150px;
 }
 
+#team .container-100 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#team .col-6 {
+    aspect-ratio: 1;
+}
+
+
 
 
 /* DEBUG */
 .debug .container-100 {
-    min-height: 50px;
     background-color: lightblue;
+}
+
+.debug #team .col-4 {
+    border: 1px solid salmon;
+    /* aspect-ratio: 1; */
+}
+
+.debug #team .col-6 {
+    border: 1px solid red;
 }
