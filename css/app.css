@@ -262,8 +262,25 @@ button {
     margin-bottom: 35px;
 }
 
+/* TEAM */
+#team.section {
+    padding-bottom: 0;
+}
+
+#team .content__wrapper {
+    width: calc( (100% / 3) * 2 );
+}
+
+#team .section__link {
+    color: #0061FF;
+    text-decoration: underline;
+    margin-bottom: 150px;
+}
+
+
 
 /* DEBUG */
-.debug .hero + section * {
-    /* border: 1px solid black; */
+.debug .container-100 {
+    min-height: 50px;
+    background-color: lightblue;
 }
