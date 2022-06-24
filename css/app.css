@@ -218,6 +218,34 @@ button {
     margin-bottom: 25px;
 }
 
+/* PARTNER */
+#partner .section__content {
+    padding-left: 45px;
+}
+
+#partner .section__title {
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#partner .section__description {
+    margin-bottom: 25px;
+}
+
+.button--outlined {
+    line-height: 45px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.section {
+    padding: 75px 0;
+}
+
+
 
 /* DEBUG */
 .debug .hero + section * {
