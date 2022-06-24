@@ -66,7 +66,18 @@ button {
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.row-margin {
     margin: 0 -20px;
+}
+
+.col-60 {
+    flex-basis: calc( (100% / 5) * 3 );
+}
+
+.col-40 {
+    flex-basis: calc( (100% / 5) * 2 );
 }
 
 .col {
