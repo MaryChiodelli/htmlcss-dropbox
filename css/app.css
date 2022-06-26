@@ -290,6 +290,32 @@ button {
     aspect-ratio: 1;
 }
 
+#team .logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#team .logo-wrapper .logo {
+    width: 180px;
+}
+
+.wrapper--light-green {
+    background-color: #A2D39B;
+}
+
+.wrapper--dark-pink {
+    background-color: #61082B;
+}
+
+.wrapper--blue {
+    background-color: #0093CE;
+}
+
+.wrapper--red {
+    background-color: #FF1C1C;
+}
+
 
 
 
