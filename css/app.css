@@ -300,6 +300,10 @@ button {
     width: 180px;
 }
 
+#team .team__description {
+    padding: 45px;
+}
+
 .wrapper--light-green {
     background-color: #A2D39B;
 }
@@ -316,6 +320,26 @@ button {
     background-color: #FF1C1C;
 }
 
+.team__description {
+    background-color: #F5F5F5;
+}
+
+.team__description .logo {
+    height: 100px;
+    margin-bottom: 35px;
+}
+
+.team__description .quote::before {
+    content: '';
+    display: block;
+    width: 110px;
+    border: 1px solid black;
+}
+
+.team__description .quote__text {
+    padding-top: 40px;
+    margin-bottom: 45px;
+}
 
 
 
