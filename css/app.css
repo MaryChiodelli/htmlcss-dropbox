@@ -22,6 +22,7 @@ a {
     color: currentColor;
 }
 
+/* COMPONENTS */
 button {
     background-color: transparent;
     border: none;
@@ -38,6 +39,20 @@ button {
 .button-white {
     background-color: transparent;
     color: black;
+}
+
+.button--outlined {
+    line-height: 45px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.button--white {
+    line-height: 45px;
+    padding: 0 50px;
+    color: black;
+    background-color: white;
 }
 
 /* LAYOUT */
@@ -238,13 +253,6 @@ button {
     margin-bottom: 25px;
 }
 
-.button--outlined {
-    line-height: 45px;
-    color: black;
-    background-color: transparent;
-    border: 1px solid black;
-}
-
 .section {
     padding: 75px 0;
 }
@@ -364,14 +372,24 @@ button {
     margin-bottom: 45px;
 }
 
+/* FREE TRIAL */
+#free-trial {
+    background-color: #B4D0E7;
+}
+
+#free-trial.section {
+    padding: 125px;
+}
+
+#free-trial .section__title {
+    margin-bottom: 0;
+    color: #61082B;
+}
+
+#free-trial .button {
+    float: right;
+}
+
 
 
 /* DEBUG */
-.debug #team .col-4 {
-    /* border: 1px solid salmon; */
-    /* aspect-ratio: 1; */
-}
-
-.debug #team .col-6 {
-    /* border: 1px solid red; */
-}
