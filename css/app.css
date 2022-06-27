@@ -41,6 +41,13 @@ button {
     color: black;
 }
 
+.button--blue {
+    line-height: 45px;
+    padding: 0 16px;
+    color: white;
+    background-color: #0061FF;
+}
+
 .button--outlined {
     line-height: 45px;
     color: black;
@@ -147,17 +154,37 @@ button {
 
 /* HERO */
 .hero {
-    padding: 90px 0 20px 0;
+    padding: 86px 0 16px 0;
     background-color: #B4D0E7;
 }
 
-.hero__header  {
-    margin-bottom: 35px;
-}
-
-.hero__header .title {
+.hero__title {
     font-size: 76px;
     font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    min-height: 380px;
+}
+
+.hero__content i {
+    font-size: 52px;
+    margin-top: auto;
+}
+
+.hero__image {
+    position: relative;
+}
+
+.hero__image img {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 /* SECTION */
