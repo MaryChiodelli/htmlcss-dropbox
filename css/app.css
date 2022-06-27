@@ -428,4 +428,14 @@ button {
 
 .footer-content {
     justify-content: space-between;
+    padding: 104px 0 108px;
+}
+
+.footer-content .footer__title {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.footer-content .footer__links a {
+    line-height: 36px;
 }
