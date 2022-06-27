@@ -390,6 +390,31 @@ button {
     float: right;
 }
 
+/* FAQ */
+#faq.section {
+    padding: 150px 0;
+}
+
+.accordion .accordion__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 35px 35px 0;
+    border-bottom: 1px solid black;
+}
+
+.accordion .accordion__item:first-child {
+    border-top: 1px solid black;
+}
+
+.accordion .accordion__title {
+    font-size: 16px;
+}
+
+.accordion i {
+    font-size: 16px;
+}
+
 
 
 /* DEBUG */
