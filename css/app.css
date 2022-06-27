@@ -439,3 +439,28 @@ button {
 .footer-content .footer__links a {
     line-height: 36px;
 }
+
+.main-footer hr {
+    width: 120px;
+    border-color: #6A6A6A;
+}
+
+.main-footer .select-wrapper {
+    padding: 52px 0;
+}
+
+.main-footer .select-lang {
+    display: flex;
+    gap: 10px;
+}
+
+.main-footer select {
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.main-footer select,
+.main-footer i {
+    color: #6A6A6A;
+}
