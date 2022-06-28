@@ -187,21 +187,26 @@ button {
     right: 0;
 }
 
-/* SECTION */
-.section__header {
-    margin-bottom: 60px;
+/* PLAN */
+.hero + .section {
+    padding-top: 160px;
 }
 
-.section__header .title {
-    font-size: 36px;
-}
-
-.section__body .radio-buttons {
+#plan .radio-wrapper {
     margin-bottom: 40px;
 }
 
-.section__body .radio-buttons span {
+#plan .radio-button {
     margin-right: 40px;
+}
+
+#plan .radio-button i {
+    margin-right: 5px;
+}
+
+#plan .radio-button.checked i {
+    color: #0061FF;
+    -webkit-text-stroke: 4px;
 }
 
 .section .card {
@@ -405,7 +410,7 @@ button {
 }
 
 #free-trial.section {
-    padding: 125px;
+    padding: 125px 0;
 }
 
 #free-trial .section__title {
