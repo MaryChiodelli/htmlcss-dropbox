@@ -209,6 +209,7 @@ button {
     -webkit-text-stroke: 4px;
 }
 
+/* CARD */
 .section .card {
     border: 1px solid black;
 }
@@ -227,46 +228,67 @@ button {
     padding: 30px;
 }
 
-.button--w-100 {
+.card__body .card__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.card__body .card__price {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.card__body .card__frequency {
+    margin-bottom: 48px;
+}
+
+.card__body .card__features {
+    margin-bottom: 48px;
+}
+
+.card__body .card__features .feature {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.card__body .button--blue {
+    line-height: 40px;
     width: 100%;
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.card__link {
+    color: #0061FF;
+    text-decoration: underline;
+}
+
+.card__body p {
+    margin-bottom: 40px;
 }
 
 .section .card__body hr {
     width: 50px;
     color: black;
+    margin-bottom: 50px;
 }
 
-.section .card__body .title {
-    margin-bottom: 15px;
-    font-size: 24px;
+.card__body .card__subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 
-.section .card__body .price {
-    margin-bottom: 15px;
-    font-weight: 700
+.card__body .card__features:last-of-type {
+    margin-bottom: 0;
 }
 
-.section .card__body .rinnovo {
-    margin-bottom: 45px;
-}
-
-.section .card__body li {
-    margin-bottom: 15px;
-}
-
-.section .card__body .button {
-    margin-top: 45px;
-    margin-bottom: 15px;
-}
-
-.section .card__body a:last-child {
-    margin-bottom: 45px;
-}
-
-.section .card__body h4 {
-    margin-top: 45px;
-    margin-bottom: 25px;
+.card__body .card__features i.fa-check {
+    color: #0061FF;
 }
 
 /* PARTNER */
